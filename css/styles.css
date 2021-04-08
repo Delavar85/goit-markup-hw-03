@@ -2,7 +2,7 @@
   --accent-cl: #2196f3;
   --title-cl: #212121;
   --main-title-cl: #ffffff;
-  --paragraf-cl: #757575;
+  --main-cl: #757575;
   --other-cl: rgba(255, 255, 255, 0.6);
 
   --bg-cl: #f5f4fa;
@@ -16,4 +16,91 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--main-cl);
+}
+.logo-1 {
+  font-family: var(--title-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-cl);
+}
+.logo-2 {
+  font-family: var(--title-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--title-cl);
+}
+.logo-3 {
+  font-family: var(--title-font);
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-title-cl);
+}
+.nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
+}
+.header-address {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.footer-address {
+  text-decoration: none;
+  color: var(--main-title-cl);
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-cl);
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+.list {
+  list-style: none;
+}
+.address {
+  font-style: inherit;
+}
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-cl);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-cl);
+}
+.second-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-cl);
+}
+.bg {
+  background-color: var(--bg-cl);
+}
+.dark-section {
+  background-color: var(--dark-bg-cl);
+}
+
+.button:focus,
+.button:hover {
+  cursor: pointer;
+  color: var(--bg-cl);
+  background-color: var(--accent-cl);
 }
