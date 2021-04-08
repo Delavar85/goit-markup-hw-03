@@ -64,6 +64,17 @@ body {
 .link:focus {
   color: var(--accent-cl);
 }
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--other-cl);
+  text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-cl);
+}
+
 .list {
   list-style: none;
 }
