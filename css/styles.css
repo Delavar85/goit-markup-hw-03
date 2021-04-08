@@ -1,4 +1,16 @@
+:root {
+  --accent-cl: #2196f3;
+  --title-cl: #212121;
+  --main-title-cl: #ffffff;
+  --paragraf-cl: #757575;
+  --other-cl: rgba(255, 255, 255, 0.6);
+
+  --bg-cl: #f5f4fa;
+  --dark-bg-cl: #2f303a;
+
+  --mail-font: "Roboto", sans-serif;
+  --title-font: "Raleway", sans-serif;
+}
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--mail-font);
 }
