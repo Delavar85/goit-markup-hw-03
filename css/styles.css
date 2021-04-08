@@ -111,7 +111,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-title-cl);
   background-color: var(--accent-cl);
 }
 .main-button:hover,
