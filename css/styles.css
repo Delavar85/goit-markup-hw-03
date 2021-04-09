@@ -65,7 +65,6 @@ body {
   color: var(--accent-cl);
 }
 .footer-link {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--other-cl);
   text-decoration: none;
@@ -96,8 +95,12 @@ body {
   text-align: center;
   color: var(--title-cl);
 }
+.second-title-main {
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-cl);
+}
 .second-title {
-  font-size: 14px;
   line-height: 1.14;
   color: var(--title-cl);
 }
